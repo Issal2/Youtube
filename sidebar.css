@@ -1,0 +1,35 @@
+.sidebar{
+  position: fixed;
+  top: 99px;
+  left: 0;
+  bottom: 0;
+  z-index: 2;
+  background-color: white;
+  width: 75px;
+}
+.sidebar-link{
+  width: 75px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.shorts{
+  width: 30px;
+  height: 40px;
+}
+.sidebar-link p{
+  position: absolute;
+  top: 75px;
+  font-family: Roboto;
+  font-size: 12px;
+}
+.subscribe{
+  width: 40px;
+  height: 40px;
+}
+.sidebar-link:hover{
+  background-color: rgb(240, 240, 240);
+  cursor: pointer;
+}

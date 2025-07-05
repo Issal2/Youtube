@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Position Practice</title>
+  </head>
+  <body style="height: 3000px; padding-top: 60px; padding-left: 155px">
+    <div
+      class="header"
+      style="
+        background-color: black;
+        color: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        z-index: 1;
+      "
+    >
+      header
+    </div>
+    <div
+      class="sidebar"
+      style="
+        display: flex;
+        position: fixed;
+        background-color: red;
+        left: 0;
+        top: 50px;
+        width: 150px;
+        bottom: 0;
+      "
+    >
+      me
+      <div
+        class="absolute"
+        style="
+          position: absolute;
+          background-color: blueviolet;
+          color: white;
+          right: 30px;
+          top: 60px;
+          z-index: 0;
+        "
+      >
+        yes
+      </div>
+    </div>
+    <div
+      class="absolute"
+      style="
+        position: absolute;
+        background-color: blueviolet;
+        color: white;
+        right: 30px;
+        top: 60px;
+        z-index: 0;
+      "
+    >
+      absolute
+    </div>
+    <div
+      class="pos 1"
+      style="
+        background-color: aquamarine;
+        height: 200px;
+        width: 200px;
+        position: relative;
+      "
+    >
+      Div 1
+    </div>
+    <div
+      class="pos 2"
+      style="
+        background-color: rgb(94, 255, 0);
+        height: 200px;
+        width: 200px;
+        position: relative;
+      "
+    >
+      Div 2
+          <div
+      class="absolute"
+      style="
+        position: absolute;
+        background-color: rgb(61, 61, 61);
+        color: white;
+        right: 20px;
+        top: 165px;
+        z-index: 0;
+        padding-left: 2px;
+        padding-right: 2px;
+      "
+    >
+      5:23
+    </div>
+    </div>
+    <div class="pos 3">Div 3</div>
+  </body>
+</html>

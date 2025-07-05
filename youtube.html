@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="yt.css" />
+    <link rel="stylesheet" href="general.css" />
+    <link rel="stylesheet" href="header.css" />
+    <script
+      src="https://kit.fontawesome.com/43290fa92d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="level.css" />
+    <link rel="stylesheet" href="sidebar.css" />
+    <title>Youtube.com Clone</title>
+  </head>
+  <body>
+    <!--Making a Header with the full customization-->
+    <div class="header">
+      <div class="left-section">
+        <div class="bar">
+          <i class="fa fa-bars" style="font-size: 25px"> </i>
+        </div>
+        <div class="yt">
+          <i
+            class="fa-brands fa-youtube"
+            style="color: red; font-size: 30px; cursor: pointer"
+          ></i>
+          Youtube
+        </div>
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <div class="search-icon">
+          <i class="fa fa-search" style="font-size: 20px; margin: auto"></i>
+          <div class="search">Search</div>
+        </div>
+        <div class="mic">
+          <i class="fa fa-microphone" style="font-size: 20px"></i>
+          <div class="search-with">Search With Audio</div>
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="create">
+          <i class="fa fa-plus" style="font-size: 30px; font-weight: 200"></i>
+          create
+        </div>
+        <div class="bell">
+          <i
+            class="fa fa-bell"
+            style="
+              font-size: 25px;
+              margin-right: 20px;
+              margin-left: 20px;
+              position: relative;
+              cursor: pointer;
+            "
+          ></i>
+          <div class="notifications">99+</div>
+        </div>
+        <div class="pro">
+          <img src="thumbnails/unnamed.jpg" alt="Profile" />
+        </div>
+      </div>
+      <div class="category">
+        <div class="category-div">All</div>
+        <div class="category-div">Game</div>
+        <div class="category-div">Assassin's Creed</div>
+        <div class="category-div">Graphic</div>
+        <div class="category-div">Programming</div>
+        <div class="category-div">COD</div>
+        <div class="category-div">Physical</div>
+        <div class="category-div">Study</div>
+        <div class="category-div">Web Dev</div>
+        <div class="category-div">Songs</div>
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <i class="fa fa-home" style="font-size: 30px; position: absolute"></i>
+        <p>Home</p>
+      </div>
+      <div class="sidebar-link">
+        <img class="shorts" src="thumbnails/shorts.png" alt="Shorts" />
+        <p>Shorts</p>
+      </div>
+      <div class="sidebar-link">
+        <img class="subscribe" src="thumbnails/subsribe.svg" alt="Subscribe" />
+        <p>Subscriptions</p>
+      </div>
+      <div class="sidebar-link">
+        <i
+          class="fa fa-user"
+          style="
+            border: 1px solid black;
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+          "
+        >
+        </i>
+        <p>You</p>
+      </div>
+    </div>
+    <div class="grid-main">
+      <div class="video-preview">
+        <div class="img-main">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/hq720 (1).avif"
+              alt="Word Crack"
+            />
+            <div class="time">9:30</div>
+          </div>
+        </div>
+        <div class="chanvid-info">
+          <div class="Channel-pic">
+            <img
+              class="profile"
+              src="channelpics/channels4_profile (1).jpg"
+              alt="Channel-pic"
+            />
+          </div>
+          <div class="vid-info">
+            <p class="video-title">How Hackers Crack any software?</p>
+            <p class="name">CoderRank</p>
+            <p class="stats">1.3M views &#183; 3 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="img-main">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/hq720 (2).avif"
+              alt="Word Crack"
+            />
+            <div class="time">5:40</div>
+          </div>
+        </div>
+        <div class="chanvid-info">
+          <div class="Channel-pic">
+            <img
+              class="profile"
+              src="channelpics/channels4_profile (2).jpg"
+              alt="Channel Pic"
+            />
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              You've failed in your life. You want to take steps forward. Here's
+              how you can achieve your goal.
+            </p>
+            <p class="name">Physical Guide</p>
+            <p class="stats">3.5M views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="img-main">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/hq720 (3).avif"
+              alt="Word Crack"
+            />
+            <div class="time">12:30</div>
+          </div>
+        </div>
+        <div class="chanvid-info">
+          <div class="Channel-pic">
+            <img
+              class="profile"
+              src="channelpics/channels4_profile (1).jpg"
+              alt="Channel-pic"
+            />
+          </div>
+          <div class="vid-info">
+            <p class="video-title">How Hackers Crack any software?</p>
+            <p class="name">CoderRank</p>
+            <p class="stats">1.3M views &#183; 3 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="img-main">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/hq720 (5).avif"
+              alt="Word Crack"
+            />
+            <div class="time">12:30</div>
+          </div>
+        </div>
+        <div class="chanvid-info">
+          <div class="Channel-pic">
+            <img
+              class="profile"
+              src="channelpics/channels4_profile (2).jpg"
+              alt="Channel Pic"
+            />
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              You've failed in your life. You want to take steps forward. Here's
+              how you can achieve your goal.
+            </p>
+            <p class="name">Physical Guide</p>
+            <p class="stats">4.5M views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="img-main">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/hq720 (4).avif"
+              alt="Word Crack"
+            />
+            <div class="time">12:30</div>
+          </div>
+        </div>
+        <div class="chanvid-info">
+          <div class="Channel-pic">
+            <img
+              class="profile"
+              src="channelpics/channels4_profile (1).jpg"
+              alt="Channel-pic"
+            />
+          </div>
+          <div class="vid-info">
+            <p class="video-title">How Hackers Crack any software?</p>
+            <p class="name">CoderRank</p>
+            <p class="stats">1.3M views &#183; 3 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="img-main">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/hq720 (6).avif"
+              alt="Word Crack"
+            />
+            <div class="time">12:30</div>
+          </div>
+        </div>
+        <div class="chanvid-info">
+          <div class="Channel-pic">
+            <img
+              class="profile"
+              src="channelpics/channels4_profile (2).jpg"
+              alt="Channel Pic"
+            />
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              You've failed in your life. You want to take steps forward. Here's
+              how you can achieve your goal.
+            </p>
+            <p class="name">Physical Guide</p>
+            <p class="stats">4.5M views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="img-main">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/hq720 (2).avif"
+              alt="Word Crack"
+            />
+            <div class="time">12:30</div>
+          </div>
+        </div>
+        <div class="chanvid-info">
+          <div class="Channel-pic">
+            <img
+              class="profile"
+              src="channelpics/channels4_profile (2).jpg"
+              alt="Channel Pic"
+            />
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              You've failed in your life. You want to take steps forward. Here's
+              how you can achieve your goal.
+            </p>
+            <p class="name">Physical Guide</p>
+            <p class="stats">4.5M views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="img-main">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/hq720 (1).avif"
+              alt="Word Crack"
+            />
+            <div class="time">12:30</div>
+          </div>
+        </div>
+        <div class="chanvid-info">
+          <div class="Channel-pic">
+            <img
+              class="profile"
+              src="channelpics/channels4_profile (1).jpg"
+              alt="Channel-pic"
+            />
+          </div>
+          <div class="vid-info">
+            <p class="video-title">How Hackers Crack any software?</p>
+            <p class="name">CoderRank</p>
+            <p class="stats">1.3M views &#183; 3 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="img-main">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/hq720 (5).avif"
+              alt="Word Crack"
+            />
+            <div class="time">12:30</div>
+          </div>
+        </div>
+        <div class="chanvid-info">
+          <div class="Channel-pic">
+            <img
+              class="profile"
+              src="channelpics/channels4_profile (2).jpg"
+              alt="Channel Pic"
+            />
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              You've failed in your life. You want to take steps forward. Here's
+              how you can achieve your goal.
+            </p>
+            <p class="name">Physical Guide</p>
+            <p class="stats">4.5M views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="img-main">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/hq720 (4).avif"
+              alt="Word Crack"
+            />
+            <div class="time">12:30</div>
+          </div>
+        </div>
+        <div class="chanvid-info">
+          <div class="Channel-pic">
+            <img
+              class="profile"
+              src="channelpics/channels4_profile (2).jpg"
+              alt="Channel Pic"
+            />
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              You've failed in your life. You want to take steps forward. Here's
+              how you can achieve your goal.
+            </p>
+            <p class="name">Physical Guide</p>
+            <p class="stats">4.5M views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="img-main">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/hq720 (6).avif"
+              alt="Word Crack"
+            />
+            <div class="time">12:30</div>
+          </div>
+        </div>
+        <div class="chanvid-info">
+          <div class="Channel-pic">
+            <img
+              class="profile"
+              src="channelpics/channels4_profile (1).jpg"
+              alt="Channel-pic"
+            />
+          </div>
+          <div class="vid-info">
+            <p class="video-title">How Hackers Crack any software?</p>
+            <p class="name">CoderRank</p>
+            <p class="stats">1.3M views &#183; 3 months ago</p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="img-main">
+          <div class="thumbnail-row">
+            <img
+              class="thumbnail"
+              src="thumbnails/hq720 (2).avif"
+              alt="Word Crack"
+            />
+            <div class="time">12:30</div>
+          </div>
+        </div>
+        <div class="chanvid-info">
+          <div class="Channel-pic">
+            <img
+              class="profile"
+              src="channelpics/channels4_profile (2).jpg"
+              alt="Channel Pic"
+            />
+          </div>
+          <div class="vid-info">
+            <p class="video-title">
+              You've failed in your life. You want to take steps forward. Here's
+              how you can achieve your goal.
+            </p>
+            <p class="name">Physical Guide</p>
+            <p class="stats">4.5M views &#183; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
