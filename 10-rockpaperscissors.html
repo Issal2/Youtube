@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="cssinjs/10-rockpaperscissors.css" />
+    <script src="js/10-rock-paper-scissors.js"></script>
+  </head>
+  <body>
+    <p class="title">Rock Paper Scissors Game</p>
+    <p class="your-move">Pick Your Move</p>
+    <div class="buttons">
+      <div class="rock">
+        <button
+          onclick="
+      // Here we used the function with the parimeter for the player's move.
+      //  And same did with the following codes. 
+      playGame('✊');
+  "
+        >
+          ✊
+        </button>
+        <p>Rock</p>
+      </div>
+      <div class="paper">
+        <button
+          onclick="
+
+    playGame('✋');
+  
+    "
+        >
+          ✋
+        </button>
+        <p>Paper</p>
+      </div>
+      <div class="scissors">
+        <button
+          onclick="
+      //  I am goind to call a function.
+      // console.log(pickComputerMove());
+
+
+      //  Calling function for the result.
+      playGame('✌');
+
+    "
+        >
+          ✌
+        </button>
+        <p>Scissors</p>
+      </div>
+    </div>
+
+    <!-- Making the element for showing the score on the page -->
+    <!-- Also making for the result and moves -->
+    <p class="js-result result"></p>
+    <p class="js-moves moves"></p>
+    <p class="js-score score"></p>
+    <button
+      onclick="
+    score.wins = 0;
+    score.losses = 0;
+    score.ties = 0;
+    //  When we reset our browser and reset score it does not reset to solve this problem we have to remove this reset from localStorage.
+    localStorage.removeItem('score');
+    // This will give error to solve this we have to define the null object in the script.
+    //  recalling function so that the score updates here Also
+    updateScoreElement();
+    "
+      class="reset-button"
+    >
+      New Game
+    </button>
+  </body>
+</html>
